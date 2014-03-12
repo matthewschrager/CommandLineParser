@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineParser", "CommandLineParser\CommandLineParser.csproj", "{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineParser.Tests", "CommandLineParser.Tests\CommandLineParser.Tests.csproj", "{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
