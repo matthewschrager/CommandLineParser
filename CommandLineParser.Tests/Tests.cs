@@ -31,5 +31,15 @@ namespace CommandLineParser.Tests
             Assert.Throws<ArgumentException>(() => parsedArgs = FluentParser.Setup().WithNumber("testNumber").Parse(commandLine));
         }
         //================================================================================
+        [Test]
+        public void IgnoreCase()
+        {
+            var commandLine = new[] { "testkey=testValue", "testnumber=2" };
+            var parsedArgs = FluentParser.Setup().WithString("testKey", true).Parse(commandLine);
+            Assert.AreEqual("testValue", parsedArgs["testkey"].Value);
+
+            Assert.Throws<ArgumentException>(() => parsedArgs = FluentParser.Setup().WithNumber("testNumber", false).Parse(commandLine));
+        }
+        //================================================================================
     }
 }

@@ -31,9 +31,19 @@ namespace CommandLineParser
             return new FluentParserState(ExpectedArguments.Concat(new[] { new ExpectedStringArgument(name, defaultValue) }));
         }
         //================================================================================
+        public FluentParserState WithString(String name, bool ignoreCase, String defaultValue = null)
+        {
+            return new FluentParserState(ExpectedArguments.Concat(new[] { new ExpectedStringArgument(name, ignoreCase, defaultValue) }));
+        }
+        //================================================================================
         public FluentParserState WithNumber(String name, double? defaultValue = null)
         {
             return new FluentParserState(ExpectedArguments.Concat(new[] { new ExpectedNumericArgument(name, defaultValue) }));
+        }
+        //================================================================================
+        public FluentParserState WithNumber(String name, bool ignoreCase, double? defaultValue = null)
+        {
+            return new FluentParserState(ExpectedArguments.Concat(new[] { new ExpectedNumericArgument(name, ignoreCase, defaultValue),  }));
         }
         //================================================================================
         public IDictionary<String, ParsedArgument> Parse(IEnumerable<String> commandLine)

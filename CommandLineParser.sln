@@ -9,18 +9,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineParser.Tests", "
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug 40|Any CPU = Debug 40|Any CPU
+		Debug 45|Any CPU = Debug 45|Any CPU
+		Release 40|Any CPU = Release 40|Any CPU
+		Release 45|Any CPU = Release 45|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Debug 40|Any CPU.ActiveCfg = Debug - .NET 4.0|Any CPU
+		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Debug 40|Any CPU.Build.0 = Debug - .NET 4.0|Any CPU
+		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Debug 45|Any CPU.ActiveCfg = Debug - .NET 4.5|Any CPU
+		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Debug 45|Any CPU.Build.0 = Debug - .NET 4.5|Any CPU
+		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Release 40|Any CPU.ActiveCfg = Release - .NET 4.0|Any CPU
+		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Release 40|Any CPU.Build.0 = Release - .NET 4.0|Any CPU
+		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Release 45|Any CPU.ActiveCfg = Release - .NET 4.5|Any CPU
+		{BEE6F5BE-0D86-4A80-A0B3-33AE408BAF7C}.Release 45|Any CPU.Build.0 = Release - .NET 4.5|Any CPU
+		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Debug 40|Any CPU.ActiveCfg = Debug - .NET 4.0|Any CPU
+		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Debug 40|Any CPU.Build.0 = Debug - .NET 4.0|Any CPU
+		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Debug 45|Any CPU.ActiveCfg = Debug - .NET 4.5|Any CPU
+		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Debug 45|Any CPU.Build.0 = Debug - .NET 4.5|Any CPU
+		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Release 40|Any CPU.ActiveCfg = Release - .NET 4.0|Any CPU
+		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Release 40|Any CPU.Build.0 = Release - .NET 4.0|Any CPU
+		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Release 45|Any CPU.ActiveCfg = Release - .NET 4.5|Any CPU
+		{3F9E8E60-58EA-45B6-AA1B-4D08F52E70EF}.Release 45|Any CPU.Build.0 = Release - .NET 4.5|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
